@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gantamir Gankhuyag - CS Student at UC Santa Cruz specializing in AI/ML. Portfolio showcasing projects, experience, and skills.">
+    <meta name="keywords" content="Gantamir Gankhuyag, Software Engineer, AI, Machine Learning, UC Santa Cruz, Portfolio">
+    <meta name="author" content="Gantamir Gankhuyag">
+    
+    <title>Gantamir Gankhuyag | CS Student & AI/ML Enthusiast</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Effects -->
+    <div class="bg-gradient"></div>
+    <div class="grid-overlay"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <a href="#" class="logo">GG</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+        <a href="#contact" class="nav-cta">Get in Touch</a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="dot"></span>
+                Open to Internship Opportunities
+            </div>
+            <h1>
+                Hi, I'm <span class="gradient-text">Gantamir</span><br>
+                Gankhuyag
+            </h1>
+            <p class="hero-subtitle">
+                CS Student at UC Santa Cruz specializing in Artificial Intelligence & Machine Learning. 
+                Building intelligent systems and solving complex problems through code.
+            </p>
+            <div class="hero-links">
+                <a href="mailto:gantamirganta0729@gmail.com" class="hero-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    gantamirganta0729@gmail.com
+                </a>
+                <a href="tel:+14159615302" class="hero-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                    (415) 961-5302
+                </a>
+                <a href="https://linkedin.com/in/Gantamir" target="_blank" class="hero-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/Gantaaa" target="_blank" class="hero-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    GitHub
+                </a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-orb"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">About Me</p>
+                <h2 class="section-title">Building the Future with AI</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm a third-year Computer Science student at UC Santa Cruz who's fasccinated by how AI can move
+                        from theory to something that actually improves lives.
+                    </p>
+                    <p>
+                        My work spans research and hands-on development, everything from neuromorphic computing advances
+                        spiking neural networks to building production-ready AI systems like CNN-based medical models and LLM-powered
+                        conversational agents. I enjoy bridging deep technical work with practical applications, especially when the
+                        result is something people can use and trust
+                    </p>
+                    <p>
+                        Outside of building systems, I enjoy playing chess and basketball. Chess sharpens my strategic thinking
+                        and patience, while basketball keeps me grounded in teamwork, adaptability, and fast decision-making
+                        skills I naturally carry into how I learn, collaborate, and build.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card animate-on-scroll">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Students Mentored</div>
+                    </div>
+                    <div class="stat-card animate-on-scroll">
+                        <div class="stat-number">15%</div>
+                        <div class="stat-label">API Latency Improved</div>
+                    </div>
+                    <div class="stat-card animate-on-scroll">
+                        <div class="stat-number">87%</div>
+                        <div class="stat-label">Model Accuracy Achieved</div>
+                    </div>
+                    <div class="stat-card animate-on-scroll">
+                        <div class="stat-number">25%</div>
+                        <div class="stat-label">LLM Accuracy Boost</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Experience</p>
+                <h2 class="section-title">Where I've Contributed</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-date">Jan 2026 – Present</div>
+                    <h3 class="timeline-title">Undergraduate Researcher</h3>
+                    <div class="timeline-company">Neuromorphic Computing Group (NCG) @ UC Santa Cruz</div>
+                    <ul class="timeline-description">
+                        <li>Conduct research in neuromorphic computing and spiking neural networks (SNNs)</li>
+                        <li>Implement and evaluate brain-inspired, energy-efficient AI models using Python and PyTorch</li>
+                        <li>Benchmark models on time-series and event-based datasets comparing accuracy, efficiency, and sparsity</li>
+                        <li>Collaborate with graduate students and faculty on experimental design and reproducibility</li>
+                    </ul>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-date">Jan 2025 – Present</div>
+                    <h3 class="timeline-title">Teacher Assistant & CS Tutor</h3>
+                    <div class="timeline-company">City College of San Francisco</div>
+                    <ul class="timeline-description">
+                        <li>Mentor 50+ students in Python and Java, reinforcing algorithmic thinking and debugging</li>
+                        <li>Develop and maintain internal dashboards using Pandas and Matplotlib</li>
+                        <li>Improved feedback response time by 20% through automated tracking systems</li>
+                        <li>Support diverse learners in understanding core CS and AI concepts</li>
+                    </ul>
+                </div>
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-date">May 2024 – Aug 2024</div>
+                    <h3 class="timeline-title">Software Development Engineering Intern</h3>
+                    <div class="timeline-company">Unet Solution LLC (Remote)</div>
+                    <ul class="timeline-description">
+                        <li>Collaborated with engineers to design and optimize backend APIs for B2B financial systems</li>
+                        <li>Worked with Python, PostgreSQL, and .NET, improving data retrieval latency by 15%</li>
+                        <li>Supported AI-driven automation features for the Payday.mn app (launched on App Store)</li>
+                        <li>Assisted with internal tooling and dashboards on GCP-hosted services</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Projects</p>
+                <h2 class="section-title">What I've Built</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: Skin Cancer Classification -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <span class="project-icon">🧬</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">TensorFlow</span>
+                            <span class="project-tag">Keras</span>
+                            <span class="project-tag">AWS</span>
+                            <span class="project-tag">Medical AI</span>
+                        </div>
+                        <h3 class="project-title">Skin Cancer Classification with Deep Learning</h3>
+                        <p class="project-desc">
+                            CNN-based image classification system for skin cancer detection using the HAM10000 dataset.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>Achieved 80% accuracy for diagnostic support</li>
+                            <li>Deployed on AWS SageMaker & Lambda</li>
+                            <li>Under 200ms prediction latency</li>
+                            <li>Served 1,000+ test images in validation</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="project-tag project-tag--fellowship">The Build Fellowship</span>
+                        </div>
+                        <a href="https://github.com/Gantaaa/Skin-Cancer-Detection-with-Deep-Learning" target="_blank" class="project-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Conversational AI Agent -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <span class="project-icon">🤖</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">OpenAI API</span>
+                            <span class="project-tag">RAG</span>
+                            <span class="project-tag">Streamlit</span>
+                            <span class="project-tag">NLP</span>
+                        </div>
+                        <h3 class="project-title">Conversational AI Agent for Data Science</h3>
+                        <p class="project-desc">
+                            LLM-powered agent that translates natural language queries into Python pandas code for EDA.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>25% improvement in LLM accuracy via RAG</li>
+                            <li>Real-time query processing backend</li>
+                            <li>User-friendly Streamlit interface</li>
+                            <li>Modular architecture design</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="project-tag project-tag--fellowship">The Build Fellowship</span>
+                        </div>
+                        <a href="https://github.com/Gantaaa" target="_blank" class="project-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3: Productivity Dashboard -->
+                <div class="project-card animate-on-scroll">
+                    <div class="project-image">
+                        <span class="project-icon">📊</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">FastAPI</span>
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">PostgreSQL</span>
+                            <span class="project-tag">Docker</span>
+                        </div>
+                        <h3 class="project-title">Full-Stack Productivity Dashboard</h3>
+                        <p class="project-desc">
+                            Complete task management platform with secure authentication and role-based access control.
+                        </p>
+                        <ul class="project-highlights">
+                            <li>30% improved request throughput</li>
+                            <li>Async database queries</li>
+                            <li>Responsive UI with Tailwind</li>
+                            <li>Containerized with Docker</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="project-tag project-tag--personal">Personal Project</span>
+                        </div>
+                        <a href="https://github.com/Gantaaa" target="_blank" class="project-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Technical Skills</p>
+                <h2 class="section-title">My Tech Stack</h2>
+            </div>
+            <div class="skills-container">
+                <!-- Programming Languages -->
+                <div class="skill-category animate-on-scroll">
+                    <h3 class="skill-category-title">
+                        <span class="skill-category-icon">💻</span>
+                        Programming Languages
+                    </h3>
+                    <div class="skills-list">
+                        <span class="skill-item skill-item--advanced">Java (Advanced)</span>
+                        <span class="skill-item skill-item--advanced">Python (Advanced)</span>
+                        <span class="skill-item skill-item--advanced">HTML (Advanced)</span>
+                        <span class="skill-item skill-item--advanced">CSS (Advanced)</span>
+                        <span class="skill-item skill-item--advanced">JavaScript (Advanced)</span>
+                        <span class="skill-item skill-item--intermediate">C# (Inter)</span>
+                        <span class="skill-item skill-item--intermediate">C (Inter)</span>
+                        <span class="skill-item skill-item--intermediate">SQL (Inter)</span>
+                    </div>
+                </div>
+
+                <!-- AI/ML & Data Science -->
+                <div class="skill-category animate-on-scroll">
+                    <h3 class="skill-category-title">
+                        <span class="skill-category-icon">🧠</span>
+                        AI/ML & Data Science
+                    </h3>
+                    <div class="skills-list">
+                        <span class="skill-item">TensorFlow</span>
+                        <span class="skill-item">PyTorch</span>
+                        <span class="skill-item">Scikit-learn</span>
+                        <span class="skill-item">Pandas</span>
+                        <span class="skill-item">NumPy</span>
+                        <span class="skill-item">Matplotlib</span>
+                        <span class="skill-item">spaCy</span>
+                        <span class="skill-item">sNN</span>
+                    </div>
+                </div>
+
+                <!-- Backend & Frontend -->
+                <div class="skill-category animate-on-scroll">
+                    <h3 class="skill-category-title">
+                        <span class="skill-category-icon">⚙️</span>
+                        Backend & Frontend
+                    </h3>
+                    <div class="skills-list">
+                        <span class="skill-item">FastAPI</span>
+                        <span class="skill-item">Flask</span>
+                        <span class="skill-item">Django</span>
+                        <span class="skill-item">.NET</span>
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">React</span>
+                        <span class="skill-item">Tailwind CSS</span>
+                        <span class="skill-item">shadcn/ui</span>
+                        <span class="skill-item">Streamlit</span>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="skill-category animate-on-scroll">
+                    <h3 class="skill-category-title">
+                        <span class="skill-category-icon">🛠️</span>
+                        Tools & Platforms
+                    </h3>
+                    <div class="skills-list">
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">Git/GitHub</span>
+                        <span class="skill-item">AWS</span>
+                        <span class="skill-item">Lambda</span>
+                        <span class="skill-item">GCP</span>
+                        <span class="skill-item">Jupyter Notebooks</span>
+                        <span class="skill-item">Google Colab</span>
+                        <span class="skill-item">Claude Code</span>
+                        <span class="skill-item">GitHub Copilot</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Education</p>
+                <h2 class="section-title">Academic Background</h2>
+            </div>
+            <div class="education-card animate-on-scroll">
+                <div class="education-header">
+                    <div>
+                        <h3 class="education-school">University of California, Santa Cruz</h3>
+                        <p class="education-degree">B.S. in Computer Science</p>
+                        <p class="education-location">📍 Santa Cruz, California</p>
+                    </div>
+                    <div class="education-date">
+                        Expected Graduation<br>
+                        <strong>May 2027</strong>
+                    </div>
+                </div>
+                <div class="education-details">
+                    <div class="education-item">
+                        <svg class="education-item-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                        </svg>
+                        <div class="education-item-content">
+                            <h4>Concentration</h4>
+                            <p>Artificial Intelligence / Machine Learning</p>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <svg class="education-item-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                        </svg>
+                        <div class="education-item-content">
+                            <h4>Related Coursework</h4>
+                            <p>Data Structures & Algorithms • Computer Architecture & Programming • Machine Learning • Artificial Intelligence • Object-Oriented Programming</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header section-header--center">
+                <p class="section-label">Contact</p>
+                <h2 class="section-title">Let's Connect</h2>
+            </div>
+            <p class="contact-subtitle">
+                I'm always open to discussing new opportunities, collaborations, or just chatting about AI and technology.
+            </p>
+            <div class="contact-methods">
+                <a href="mailto:gantamirganta0729@gmail.com" class="contact-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    <h3>Email</h3>
+                    <p>gantamirganta0729@gmail.com</p>
+                </a>
+                <a href="tel:+14159615302" class="contact-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                    </svg>
+                    <h3>Phone</h3>
+                    <p>(415) 961-5302</p>
+                </a>
+                <a href="https://linkedin.com/in/Gantamir" target="_blank" class="contact-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                    </svg>
+                    <h3>LinkedIn</h3>
+                    <p>linkedin.com/in/Gantamir</p>
+                </a>
+                <a href="https://github.com/Gantaaa" target="_blank" class="contact-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    <h3>GitHub</h3>
+                    <p>github.com/Gantaaa</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p class="footer-text">© 2025 Gantamir Gankhuyag. Built with passion and code.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+</html>
